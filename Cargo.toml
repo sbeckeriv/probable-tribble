@@ -1,0 +1,12 @@
+[package]
+name = "resolution"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+clap = "2.33.3"
+csv = "1.1.6"
+rust_decimal = {version = "1.14.2", features = ["serde-str"] }
+serde = { version = "1", features = ["derive"] }
+[profile.release]
+debug = true

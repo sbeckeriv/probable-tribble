@@ -1,0 +1,5 @@
+# run
+
+first input should be the csv file. Errors our outputted to standard error.
+
+cargo run --release example_files/every_state.csv
