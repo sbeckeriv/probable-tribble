@@ -3,3 +3,5 @@
 first input should be the csv file. Errors our outputted to standard error.
 
 cargo run --release example_files/every_state.csv
+
+I tried to use rust types as away to walk over the transaction's states. 
